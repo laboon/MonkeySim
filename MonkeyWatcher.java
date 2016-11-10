@@ -1,3 +1,7 @@
+/*  Ritika Maknoor, David Bickford
+    CS 1632
+    Deliverable 4 */
+
 import java.util.*;
 
 public class MonkeyWatcher {
@@ -8,7 +12,7 @@ public class MonkeyWatcher {
      * Return number of rounds played
      * @return int number of rounds played
      */
-    
+
     public int getRounds() {
 	return numRounds;
     }
@@ -16,7 +20,7 @@ public class MonkeyWatcher {
     /**
      * Increment number of rounds
      */
-    
+
     public void incrementRounds() {
 	int toReturn = 0;
 	if (numRounds < 0) {
@@ -28,7 +32,6 @@ public class MonkeyWatcher {
 	} else {
 	    numRounds += 1;
 	}
-	    
     }
-    
+
 }
